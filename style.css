@@ -1,0 +1,93 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+    color: red;
+}
+
+ul {
+    margin: 50px;
+}
+
+.bg-red {
+    margin: 0;
+    background: red;
+}
+
+#qqq {
+    margin: 30px;
+}
+
+#special {
+    border: 1px solid #000;
+}
+
+[name^="h"] {
+    background: black;
+    color: #fff;
+}
+
+[data-p*="-"] {
+    background: yellow;
+    color: green;
+}
+
+[data-p~="h"] {
+    background: aqua;
+    color: blue;
+}
+
+[data-p$="3"] {
+    background: blue;
+}
+
+div p {
+    background: black;
+    color: #fff;
+}
+
+div > p {
+    background: yellow;
+    color: blue;
+}
+
+div > p + p {
+    background: green;
+    color: aqua;
+}
+
+p {
+    background: #414141 !important;
+    color: #fff;
+}
+
+header > div {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.test {
+    color: red;
+}
+
+.test:before {
+    content: 'wfewerht';
+}
+
+.test:after {
+    content: '-';
+}
+
+.test:hover {
+    cursor: pointer;
+}
+
+.test:focus {
+    background: blue;
+}
+
