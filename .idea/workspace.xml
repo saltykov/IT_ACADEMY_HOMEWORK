@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad718b03-2883-4999-832c-fd58640a4f67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/picture/link/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/link/g+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/link/link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/link/twit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,13 +42,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1430" />
+          <entry key="html" value="1491" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1430" />
+          <entry key="HTML" value="1491" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -54,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="408">
+              <caret line="219" column="12" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -149,7 +154,7 @@
       <workItem from="1539451021595" duration="4826000" />
       <workItem from="1539467890130" duration="228000" />
       <workItem from="1539512499473" duration="4853000" />
-      <workItem from="1539794368789" duration="3263000" />
+      <workItem from="1539794368789" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary="change html">
       <created>1539467952466</created>
@@ -176,7 +181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13170000" />
+    <option name="totallyTimeSpent" value="14407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="738" extended-state="6" />
@@ -217,8 +222,8 @@
     <entry file="file://$PROJECT_DIR$/lesson3_html.html" />
     <entry file="file://$PROJECT_DIR$/lesson4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="408">
+          <caret line="219" column="12" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
         </state>
       </provider>
     </entry>
