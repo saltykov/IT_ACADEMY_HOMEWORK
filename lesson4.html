@@ -3,144 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <title>lesson3_html</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
 
 <header>
-    <!--створити хедер головну частину і футер, та використовуючи максимальну кількість тегів-->
-    <!--на прикладі статті наповнити основну частину сторінки подібно до статті, в самому низу -->
-    <!--необхідно добавити форму створення коментаря, у якій має бути текстове поле для email-y (input),-->
-    <!--поле для самого коментаря (textarea) та кнопка-->
-    <!--також під формою вставити табличку у якій у дві колонки назва тегу який ви використали та -->
-    <!--кількість разів (Ctrl+F) допоможе у підрахунках-->
 
-    <!--В кінці також запушити та створити Pull Request на перевірку-->
-    <div><img src="picture/logo.png" alt=""> ecotown </div>
-    <div>
-
-        <ul>
+    <div class="logo">
+        <div><img src="picture/logo.png" alt=""></div>
+        <div>ecotown</div>
+    </div>
+    <div class="nav" >
+        <ul >
             <li><a href="#"><img src="picture/logo2.png" alt=""> новини</a></li>
             <li><a href="#">зроби сам</a></li>
             <li><a href="#">поради для дому</a></li>
             <li><a href="#">події</a></li>
             <li><a href="#">ecovoice</a></li>
-           
         </ul>
-
-
     </div>
-    <div><input type="find" name="" id=""><img src="picture/find.png" alt=""></div>
+    <div class="header_find"><input type="find" name="" id=""><img src="picture/find.png" alt=""></div>
 
 </header>
-<main>
-    <div>
-        <div><img src="picture/1.1.png" alt=""></div>
-        <div>
-            <div><a href="#">сонце</a></div>
-            <div>01.10.2018</div>
+<main class="main">
+    <div class="news">
+        <div class="news_pic"><img src="picture/1.1.png" alt="" ></div>
+        <div  class="rubryka_data">
+            <div class="rubryka"><a href="#">сонце</a></div>
+            <div class="data">01.10.2018</div>
         </div>
-        <div><a href="#">Британська трейдингова компанія з українцем на чолі планує будувати в Україні сонячні станції</a></div>
+        <div class="news_name"><a href="#">Британська трейдингова компанія з українцем на чолі планує будувати в Україні сонячні станції</a></div>
     </div>
-    <div>
-        <div><img src="picture/1.2.png" alt=""></div>
-        <div>
-            <div><a href="#">
+    <div class="news">
+        <div class="news_pic"><img src="picture/1.2.png" alt=""></div>
+        <div class="rubryka_data">
+            <div class="rubryka"><a href="#">
                 Державне регулювання</a></div>
-            <div>30.09.2018</div>
+            <div class="data">30.09.2018</div>
         </div>
-        <div><a href="#">В Україні планують взяти на облік зелені насадження у містах і селищах</a></div>
+        <div class="news_name"><a href="#">В Україні планують взяти на облік зелені насадження у містах і селищах</a></div>
     </div>
-    <div>
-        <div><img src="picture/1.3.png" alt=""></div>
-        <div>
-            <div><a href="#">Сонце</a></div>
-            <div>29.09.2018</div>
+    <div class="news">
+        <div class="news_pic"><img src="picture/1.3.png" alt=""></div>
+        <div class="rubryka_data">
+            <div class="rubryka"><a href="#">Сонце</a></div>
+            <div class="data">29.09.2018</div>
         </div>
-        <div><a href="#">У Львові автотранспортне підприємство встановить дахову сонячну станцію</a></div>
+        <div class="news_name"><a href="#">У Львові автотранспортне підприємство встановить дахову сонячну станцію</a></div>
     </div>
-    <div>
-        <div><img src="picture/1.4.png" alt=""></div>
-        <div>
-            <div><a href="#">Сонце</a></div>
-            <div>28.09.2018</div>
+    <div class="news">
+        <div class="news_pic"><img src="picture/1.4.png" alt=""></div>
+        <div class="rubryka_data">
+            <div class="rubryka"><a href="#">Сонце</a></div>
+            <div class="data">28.09.2018</div>
         </div>
-        <div><a href="#">Студент з Миколаєва розробив «сонячну черепицю», яку планують виробляти в Україні </a></div>
+        <div class="news_name"><a href="#">Студент з Миколаєва розробив «сонячну черепицю», яку планують виробляти в Україні </a></div>
     </div>
-    <div>
-        <div><img src="picture/1.5.png" alt=""></div>
-        <div>
-            <div><a href="#">Відновлювана енергія</a></div>
-            <div>28.09.2018</div>
-        </div>
-        <div><a href="#">Британська компанія готова побудувати в Україні офшорну вітро-сонячну станцію гігаватної потужності</a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.6.png" alt=""></div>
-        <div>
-            <div><a href="#">Сонце</a></div>
-            <div>28.09.2018</div>
-        </div>
-        <div><a href="#">У Чорнобилі збудують ще дві сонячні та одну вітрову електростанції</a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.7.png" alt=""></div>
-        <div>
-            <div><a href="#">Сонце</a></div>
-            <div>28.09.2018</div>
-        </div>
-        <div><a href="#">Поблизу Бердичева будують сонячну станцію у комплексі з екофермою </a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.8.png" alt=""></div>
-        <div>
-            <div><a href="#">Вода</a></div>
-            <div>27.09.2018</div>
-        </div>
-        <div><a href="#">В Канаді збудують найбільшу в світі приливну електростанцію потужністю 9 МВт</a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.9.png" alt=""></div>
-        <div>
-            <div><a href="#">
-                Еко-транспорт</a></div>
-            <div>27.09.2018</div>
-        </div>
-        <div><a href="#">У Івано-Франківську прокладуть 8 км велодоріжок</a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.10.png" alt=""></div>
-        <div>
-            <div><a href="#">
-                Еко-транспорт</a></div>
-            <div>27.09.2018</div>
-        </div>
-        <div><a href="#">IKEA повністю переходить на електротранспорт у 30 країнах</a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.11.png" alt=""></div>
-        <div>
-            <div><a href="#">
-                Енергозбереження</a></div>
-            <div>27.09.2018</div>
-        </div>
-        <div><a href="#">На Вінничинні термомодернізують за кошти ЄС чотири дитсадка</a></div>
-    </div>
-    <div>
-        <div><img src="picture/1.12.png" alt=""></div>
-        <div>
-            <div><a href="#">
-                Еко-транспорт</a></div>
-            <div>26.09.2018</div>
-        </div>
-        <div><a href="#">Renault представила проект функціонування еко-острова на основі електромобілів і сонячних електростанцій</a></div>
-    </div>
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.5.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">Відновлювана енергія</a></div>-->
+            <!--<div>28.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">Британська компанія готова побудувати в Україні офшорну вітро-сонячну станцію гігаватної потужності</a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.6.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">Сонце</a></div>-->
+            <!--<div>28.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">У Чорнобилі збудують ще дві сонячні та одну вітрову електростанції</a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.7.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">Сонце</a></div>-->
+            <!--<div>28.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">Поблизу Бердичева будують сонячну станцію у комплексі з екофермою </a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.8.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">Вода</a></div>-->
+            <!--<div>27.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">В Канаді збудують найбільшу в світі приливну електростанцію потужністю 9 МВт</a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.9.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">-->
+                <!--Еко-транспорт</a></div>-->
+            <!--<div>27.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">У Івано-Франківську прокладуть 8 км велодоріжок</a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.10.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">-->
+                <!--Еко-транспорт</a></div>-->
+            <!--<div>27.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">IKEA повністю переходить на електротранспорт у 30 країнах</a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.11.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">-->
+                <!--Енергозбереження</a></div>-->
+            <!--<div>27.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">На Вінничинні термомодернізують за кошти ЄС чотири дитсадка</a></div>-->
+    <!--</div>-->
+    <!--<div class="news">-->
+        <!--<div><img src="picture/1.12.png" alt=""></div>-->
+        <!--<div>-->
+            <!--<div><a href="#">-->
+                <!--Еко-транспорт</a></div>-->
+            <!--<div>26.09.2018</div>-->
+        <!--</div>-->
+        <!--<div><a href="#">Renault представила проект функціонування еко-острова на основі електромобілів і сонячних електростанцій</a></div>-->
+    <!--</div>-->
     
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
     <!--<form action="">-->
         <!--<label for="mail">your email</label><br>-->
         <!--<input type="email" name="mail" id="mail"><br>-->
@@ -197,7 +190,7 @@
 
 <footer>
     <div>
-        <div><img src="picture/logo.png" alt=""></div>
+        <div class="footer_logo"><img src="picture/logo.png" alt=""></div>
         <div>ecotown</div>
     </div>
     <div>
@@ -214,12 +207,12 @@
     </div>
     <div>
         <div>Давайте дружити</div>
-        <div>
-            <img src="picture/link/fb.png" alt="">
-            <img src="picture/link/twit.png" alt="">
-            <img src="picture/link/g+.png" alt=""></div>
-            <img src="picture/link/link.png" alt="">
-
+        <div class="footer_pic">
+            <a href="#"><img src="picture/link/fb.png" alt=""></a>
+            <a href="#"><img src="picture/link/twit.png" alt=""></a>
+            <a href="#"><img src="picture/link/g+.png" alt=""></a>
+            <a href="#"><img src="picture/link/link.png" alt=""></a>
+        </div>
     </div>
 </footer>
 
