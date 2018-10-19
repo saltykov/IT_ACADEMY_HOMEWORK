@@ -1,0 +1,132 @@
+@font-face {
+
+}
+
+
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Fira Mono', monospace;*/
+/*font-family: 'Oswald', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: palegoldenrod;
+    width: 90%;
+    margin: auto;
+    font-size: 1em;
+
+}
+header {
+    background-color: chartreuse;
+    font-size: 0.5cm;
+    height: 20vh;
+    font-family: 'Oswald', sans-serif;
+}
+        .logo, .header_find, .nav{
+            display: inline-block;
+            height: inherit;
+            float: left;
+
+        }
+        .logo {
+            background-color: blue;
+            width: 20%;
+        }
+        .logo > img, p {
+            float: left;
+            margin-top: 5vh;
+        }
+        .header_find {
+            width: 20%;
+        }
+        .header_find > input, img{
+            float: left;
+            border-width: 0;
+            height: 20%;
+            margin-top: 5vh;
+        }
+        .header_find > input{
+            width: 80%;
+
+        }
+        .header_find > img{
+            width: 20%;
+        }
+        .nav{
+            background-color: aqua;
+            width: 60%;
+            text-align: center;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin-top: 5vh;
+        }
+       .nav ul::before{
+            content: "+";
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+       .nav a {
+            color: crimson;
+        }
+       li{
+           display: inline;
+
+       }
+
+.main {
+    height: 60vh;
+    background-color: gold;
+}
+        .news{
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            display: inline-block;
+        }
+        .news_pic {
+            display: block;
+            width: 300px;
+            height: 100px;
+        }
+        .news_pic > img {
+            width: 300px;
+            height: 100px;
+        }
+        .news > .rubryka_data {
+            display: inline-block;
+            width: 300px;
+            height: 20px;
+            font-size: 10pt;
+        }
+        .data {
+            float: right;
+        }
+        .rubryka{
+            float: left;
+        }
+        .news_name{
+            width: 300px;
+            height: 100px;
+        }
+footer{
+    background-color: aqua;
+    font-size: 0.5cm;
+    height: 20vh;
+}
+        .footer_pic{
+            display: flex;
+            flex-direction: row;
+        }
+        .footer_pic > a> img {
+            width: 90%;
+            height: 20px;
+        }
+        .footer_logo > img {
+            filter: grayscale(100%);
+        }
