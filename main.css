@@ -178,3 +178,19 @@ footer{
     height: 10%;
     margin-top: 0;
 }
+
+
+.fix-menu {
+    display: block;
+    position: fixed;
+margin-left: -40px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.fix-menu li {
+    display: block;
+}
+.lesson6-7 p {
+    margin: 0;
+}
