@@ -186,11 +186,55 @@ footer{
 margin-left: -40px;
     background-color: red;
     box-sizing: border-box;
-}
 
+}
+.fix-menu ul {
+    display: block;
+    counter-reset: f-menu;
+
+}
 .fix-menu li {
     display: block;
+
 }
+.fix-menu a {
+    color: white;
+
+}
+
+.fix-menu li::after {
+    counter-increment: f-menu;
+    content:'-' counter(f-menu) ;
+    color: white;
+    background: red;
+
+}
+.lesson6-7 {
+    position: relative;
+}
+
 .lesson6-7 p {
     margin: 0;
+}
+.lesson6-7 .new::after{
+    background: black;
+    opacity: 0.5;
+    content: '';
+    position: absolute;
+}
+
+*:target{
+    background: black;
+    color: white;
+}
+.ov-flo{
+    vh:100%;
+    position: relative;
+   width: 100%;
+
+}
+
+.ov-flo::after{
+    position: absolute;
+    overflow: auto;
 }
