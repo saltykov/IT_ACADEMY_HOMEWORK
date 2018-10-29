@@ -29,7 +29,7 @@ header {
             background-color: blue;
             width: 20%;
         }
-        .logo > img, p {
+        .logo  img + p {
             float: left;
             margin-top: 5vh;
         }
@@ -209,32 +209,78 @@ margin-left: -40px;
     background: red;
 
 }
-.lesson6-7 {
-    position: relative;
-}
 
-.lesson6-7 p {
-    margin: 0;
-}
-.lesson6-7 .new::after{
-    background: black;
-    opacity: 0.5;
-    content: '';
-    position: absolute;
-}
 
 *:target{
     background: black;
     color: white;
 }
+
 .ov-flo{
-    vh:100%;
+   width: 1000px;
+    height: 100vh;
+    overflow: scroll;
     position: relative;
-   width: 100%;
+    background: red;
+
+}
+.clear{
+     clear: both;
+ }
+.colum {
+    width: 200px;
+    height: 100vh;
+    overflow: scroll;
+    position: inherit;
+    background: red;
+    display: inline-block;
+
+}
+.clitynka{
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+    position: inherit;
+    background: red;
+    display: inline-block;
 
 }
 
-.ov-flo::after{
+.cl1{
+    height: 100px;
+}
+.cl2 {height: 200px;}
+
+}
+.cl3 {height: 300px;}
+
+}
+
+.cl4 {height: 400px;}
+
+}
+
+
+.lesson6-7 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.new p:hover{
     position: absolute;
-    overflow: auto;
+    background: #000;
+    opacity: 0.1;
+    content: '';
 }
+
+
+
+
+/*}*/
+/*.new p::hover:nth-child() {*/
+    /*position: absolute;*/
+    /**/
+/*}*/
+
+
