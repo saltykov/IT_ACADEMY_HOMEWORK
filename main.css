@@ -217,7 +217,7 @@ margin-left: -40px;
 }
 
 .ov-flo{
-   width: 1000px;
+   width: 700px;
     height: 100vh;
     overflow: scroll;
     position: relative;
@@ -229,7 +229,7 @@ margin-left: -40px;
      clear: both;
  }
 .colum {
-    width: 200px;
+    width: 100px;
     height: 100vh;
     overflow: scroll;
     position: inherit;
@@ -239,12 +239,12 @@ margin-left: -40px;
 
 }
 .clitynka{
-    width: 200px;
+    width: 100px;
     height: 50px;
     overflow: scroll;
     position: inherit;
     background: red;
-    display: inline-block;
+    display: block;
 
 }
 
