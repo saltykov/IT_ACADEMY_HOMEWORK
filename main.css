@@ -222,6 +222,7 @@ margin-left: -40px;
     overflow: scroll;
     position: relative;
     background: red;
+    white-space: nowrap;
 
 }
 .clear{
