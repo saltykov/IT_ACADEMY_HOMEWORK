@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 250px;
+    padding: 20px;
+    width: 600px;
+    font-size: x-large;
+    line-height: 35px;
+    color: dimgray;
+}
+
+b i p {
+    border-left: 2px solid;
+    padding-left: 10px;
+    color: black;
+}
+
