@@ -1,0 +1,186 @@
+/*.size-cm {*/
+    /*font-size: 1cm;*/
+/*}*/
+
+/*.size-mm {*/
+    /*font-size: 10mm;*/
+/*}*/
+
+/*.size-pc {*/
+    /*font-size: 5pc;*/
+/*}*/
+
+/*.size-pt {*/
+    /*font-size: 5pt;*/
+/*}*/
+
+/*.size-em div {*/
+    /*font-size: 0.8em;*/
+/*}*/
+
+/*.size-per {*/
+    /*font-size: 20px;*/
+    /*position: relative;*/
+/*}*/
+
+/*.size-per-child span {*/
+    /*font-size: 30%;*/
+/*}*/
+
+/*.size-per-child {*/
+    /*font-size: 50%;*/
+/*}*/
+
+/*.size-width{*/
+/*position: relative;*/
+/*width: 500px;*/
+/*background: red;*/
+/*}*/
+
+/*.size-width .size-width-50{*/
+/*position: absolute;*/
+/*width: 50%;*/
+/*background: black;*/
+/*}*/
+
+/*.size-vw {*/
+    /*width: 50vw;*/
+    /*background: yellow;*/
+/*}*/
+
+/*.size-vh {*/
+    /*height: 50vh;*/
+    /*background: green;*/
+/*}*/
+
+/*.size-vmin {*/
+    /*width: 50vmin;*/
+    /*background: red;*/
+/*}*/
+
+/*.size-vmax {*/
+    /*width: 50vmax;*/
+    /*background: black;*/
+/*}*/
+
+/*.size-inh-par {*/
+    /*width: 100px;*/
+    /*background: yellow;*/
+/*}*/
+
+/*.size-inh-ch {*/
+    /*width: inherit;*/
+    /*background: violet;*/
+/*}*/
+
+/** {*/
+/*margin: 10px;*/
+/*padding: 0;*/
+/*}*/
+
+/*h1 {*/
+/*margin: 20px;*/
+/*color: red;*/
+/*}*/
+
+/*ul {*/
+/*margin: 50px;*/
+/*}*/
+
+/*.bg-red {*/
+/*margin: 0;*/
+/*background: red;*/
+/*}*/
+
+/*#qqq {*/
+/*margin: 30px;*/
+/*}*/
+
+/*#special {*/
+/*border: 1px solid #000;*/
+/*}*/
+
+/*[name^="h"] {*/
+/*background: black;*/
+/*color: #fff;*/
+/*}*/
+
+/*[data-p*="-"] {*/
+/*background: yellow;*/
+/*color: green;*/
+/*}*/
+
+/*[data-p~="h"] {*/
+/*background: aqua;*/
+/*color: blue;*/
+/*}*/
+
+/*[data-p$="3"] {*/
+/*background: blue;*/
+/*}*/
+
+/*div p {*/
+/*background: black;*/
+/*color: #fff;*/
+/*}*/
+
+/*div > p {*/
+/*background: yellow;*/
+/*color: blue;*/
+/*}*/
+
+/*div > p + p {*/
+/*background: green;*/
+/*color: aqua;*/
+/*}*/
+
+/*p {*/
+/*background: #414141 !important;*/
+/*color: #fff;*/
+/*}*/
+
+/*header > div {*/
+/*border: 1px solid;*/
+/*display: flex;*/
+/*flex-direction: row;*/
+/*width: 100%;*/
+/*}*/
+
+/*.test {*/
+/*color: red;*/
+/*}*/
+
+/*.test:before {*/
+/*content: 'wfewerht';*/
+/*}*/
+
+/*.test:after {*/
+/*content: '-';*/
+/*}*/
+
+/*.test:hover {*/
+/*cursor: pointer;*/
+/*}*/
+
+/*.test:focus {*/
+/*background: blue;*/
+/*}*/
+
+.custom-font{
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5vh;
+}
+
+@font-face {
+    font-family: 'test-font';
+    src: url("font.woff2") format("woff2");
+}
+
+div{
+    color: green;
+}
+
+p{
+    color: currentColor;
+}
