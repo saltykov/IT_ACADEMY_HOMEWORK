@@ -93,6 +93,7 @@ header {
                 .news_pic > img {
                     display: block;
 
+
                 }
 
             .rubryka_data{
@@ -282,13 +283,34 @@ margin-left: -40px;
 
 .new:hover:nth-of-type(2n+1){
     padding-left: 50%;
-
+    background: linear-gradient(white, gray);
 
 }
 .new:hover:nth-of-type(2n){
     padding-right: 50%;
-
+    background: linear-gradient(gray, white);
 }
 
+.form{
+    display: inline-block;
+    border: green solid 10px;
+    border-radius: 10%;
+    background: greenyellow;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
 
+.myinput{
+    box-shadow: unset -15px -15px 10px 3px red ;
+    background: yellow;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 
+}
+.myinput:focus{
+    border: 10px solid black;
+}
+
+.picpic{
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
