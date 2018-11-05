@@ -1,0 +1,77 @@
+.lesson6-7 {
+    width: 50%;
+    display: block;
+
+
+}
+
+
+section{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #ccc;
+    padding: 5%;
+    overflow-y: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    counter-reset: col;
+}
+section .col{
+    width: 100px;
+    height: 100%;
+    background: green;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: auto;
+    counter-increment: col;
+    counter-reset: cell;
+}
+
+section .col .cell{
+    width: 100%;
+    height: 100px;
+    background: red;
+    margin: 0 0 5px;
+    counter-increment: cell;
+}
+
+section .col .cell::before{
+    content: 'стовпчик ' counter(col) 'клітинка ' counter(cell);
+}
+
+
+.hover2{
+    width: 100%;
+    margin: 0 auto;
+
+    /*position: relative;*/
+}
+
+.hover2 p{
+    width: 50%;
+    background: red;
+    position: relative;
+    display: block;
+}
+.hover2 p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*left: 0;*/
+    /*right: 0;*/
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+,hover2 p:nth-child(odd):hover::before{
+     left: -50%;
+ }
+
+,hover2 p:nth-child(even):hover::before{
+     right: -50%;
+ }

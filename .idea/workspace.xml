@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad718b03-2883-4999-832c-fd58640a4f67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,49 +19,46 @@
     <session id="-1962066879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="2" />
-          <entry key="project.open.time.35" value="3" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="2" />
-          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="4" />
-          <entry key="rnc" value="1" />
+          <entry key="html" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="4" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3346" />
-          <entry key="html" value="2847" />
+          <entry key="css" value="2912" />
+          <entry key="html" value="2787" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3346" />
-          <entry key="HTML" value="2847" />
+          <entry key="CSS" value="2912" />
+          <entry key="HTML" value="2787" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -72,20 +69,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="254" column="10" lean-forward="true" selection-start-line="254" selection-start-column="10" selection-end-line="254" selection-end-column="10" />
+            <state relative-caret-position="1224">
+              <caret line="258" column="7" lean-forward="true" selection-start-line="179" selection-end-line="258" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2220">
+              <caret line="385" column="2" lean-forward="true" selection-start-line="266" selection-end-line="385" selection-end-column="2" />
+              <folding>
+                <element signature="e#1152#1222#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2023">
+              <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.css">
+        <entry file="file://$PROJECT_DIR$/lesson2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="385" column="2" lean-forward="true" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
-              <folding>
-                <element signature="e#1152#1222#0" />
-              </folding>
+            <state relative-caret-position="421">
+              <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -95,6 +110,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -109,6 +125,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ad1ae57c5d767987e67965d3a446ae0962d0d74e" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,8 +138,10 @@
         <option value="$PROJECT_DIR$/lesson4.html" />
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/lesson5.html" />
-        <option value="$PROJECT_DIR$/lesson.html" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/lesson.html" />
+        <option value="$PROJECT_DIR$/main2.css" />
+        <option value="$PROJECT_DIR$/lesson2.html" />
       </list>
     </option>
   </component>
@@ -157,6 +180,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -198,8 +222,6 @@
       <workItem from="1540916875182" duration="2284000" />
       <workItem from="1541072780203" duration="1081000" />
       <workItem from="1541075731506" duration="3014000" />
-      <workItem from="1541088991419" duration="1481000" />
-      <workItem from="1541334754056" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="change html">
       <created>1539467952466</created>
@@ -240,7 +262,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89093000" />
+    <option name="totallyTimeSpent" value="83979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="738" extended-state="6" />
@@ -286,27 +308,34 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson5.html" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+    <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        <state relative-caret-position="2220">
+          <caret line="385" column="2" lean-forward="true" selection-start-line="266" selection-end-line="385" selection-end-column="2" />
+          <folding>
+            <element signature="e#1152#1222#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="254" column="10" lean-forward="true" selection-start-line="254" selection-start-column="10" selection-end-line="254" selection-end-column="10" />
+        <state relative-caret-position="1224">
+          <caret line="258" column="7" lean-forward="true" selection-start-line="179" selection-end-line="258" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/lesson2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="385" column="2" lean-forward="true" selection-start-line="385" selection-start-column="2" selection-end-line="385" selection-end-column="2" />
-          <folding>
-            <element signature="e#1152#1222#0" />
-          </folding>
+        <state relative-caret-position="421">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
         </state>
       </provider>
     </entry>
