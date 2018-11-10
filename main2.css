@@ -14,8 +14,8 @@ section{
 
 .boxanimaterotate{
     position: absolute;
-    width: 20vw;
-    height: 20vh;
+    width: 50vw;
+    height: 50vh;
     margin: 0 auto;
     top: 40%;
     right: 40%;
@@ -23,8 +23,9 @@ section{
     animation-iteration-count: infinite;
     animation-duration: 10s;
     transition-timing-function: linear;
-    background: yellow;
-    z-index: 2;
+    /*background: yellow;*/
+    transform-style: preserve-3d;
+
 }
 
 @keyframes boxrotate {
@@ -40,38 +41,41 @@ section{
 
 
 .frontanimatemowefront{
-    position: inherit;
-    width: 10vw;
-    height: 10vh;
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
     margin: 0 auto;
     background: blue;
     top: 30%;
-    left: 25%;
+    left: 35%;
     animation-name: frontanimat;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 10s ;
     transition-timing-function: linear;
-    z-index: 1;
+    transform-style: preserve-3d;
+    transform: translateZ(-50px);
+
+
 
 }
 
 .frontanimatemowefront::before{
+    transform-style: preserve-3d;
+    transform: translateZ(-5px);
     content: 'front';
     background: blue;
+
 }
-.frontanimatemowefront::after{
-    content: '';
-    background: blue;
-}
+
 @keyframes frontanimat {
     from{
-        transform: rotateZ(0deg);
-        z-index: 1;
+        transform: rotateZ(0deg) translateZ(-50px) ;
 
-    }
+        }
     to{
-        transform: rotateZ(360deg);
-        z-index: 3;
+        transform:rotateZ(360deg) translateZ(-50px) ;
+
+
     }
 }
 
@@ -83,27 +87,32 @@ section{
 
 .backanimatemoveback{
     position: inherit;
-    width: 10vw;
-    height: 10vh;
+    width: 25vw;
+    height: 25vh;
     margin: 0 auto;
     background: red;
     top: 30%;
-    left: 25%;
+    left: 35%;
     animation-name: backanimat;
     animation-iteration-count: infinite;
     animation-duration: 10s;
     transition-timing-function: linear;
-    z-index: 3;
+    transform-style: preserve-3d;
+    transform: translateZ(50px);
+
 }
 
 @keyframes backanimat {
     from{
-        transform: rotateZ(0deg) ;
-        z-index: 3;
+        transform: rotateZ(0deg) translateZ(50px);
+
+
     }
     to{
-        transform: rotateZ(-360deg);
-        z-index: 1;
+        transform:  rotateZ(-360deg) translateZ(50px) ;
+
+
+
     }
 }
 
@@ -111,9 +120,6 @@ section{
 .backanimatemoveback::before{
     content: 'back';
     background: red;
-}
-
-.backanimatemoveback::after{
-    content: '';
-    background: red;
+    transform-style: preserve-3d;
+    transform: translateZ(5px);
 }
